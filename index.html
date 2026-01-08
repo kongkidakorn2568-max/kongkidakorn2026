@@ -1,0 +1,801 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebApp Tong888</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .head{
+            background-color: rgb(0, 255, 106);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar navbar-expand-lg sticky-top head shadow">
+        <div class="container">
+            <a href="index.html"><img src="img/logo_001 True.png" width="80%"></a>
+            <ul class="nav">
+                <li class="text-center">
+                    <a href="index.html" class="nav-link text-secondary">หน้าหลัก</a>
+                </li>
+                <li class="text-center">
+                    <a href="#news" class="nav-link text-secondary">ข่าว</a>
+                </li>
+                <li class="text-center">
+                    <a href="#product" class="nav-link text-secondary">Product</a>
+                </li>
+                <li class="text-center">
+                    <a href="user.html" class="nav-link text-secondary">@kongkidakorn</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active">
+                     <button type="button" class="navbar navbar-toggler"><span class="navbar navbar-toggler-icon"></span></button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!----------แบนเนอร์----------->
+    <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+            <img src="img/003.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="img/002.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="img/001.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <!---ข่าว---->
+    <div class="container" id="news">
+        <div class="row">
+            <div class="col-12 col-md-8 col-xl-7 col-xxl-7">
+                <div class="mt-1">
+                    <font size="+2" color="blue">| ข่าววันนี้</font>
+                </div>
+                <div class="card shadow mt-1">
+                    <div class="card body">
+                       <table width="100%">
+                            <tr>
+                                <td width="30%"><img src="img/c01.jpg" width="80%"></td>
+                                <td width="70%">คัดแยกขยะรีไซเคิล <br> <a href="#" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#new1">อ่านลายละเอียด</a></td>
+                            </tr>
+                       </table>
+                    </div>
+                </div>
+
+                 <div class="card shadow mt-1">
+                    <div class="card body">
+                       <table width="100%">
+                            <tr>
+                                <td width="30%"><img src="img/c02.jpg" width="80%"></td>
+                                <td width="70%">คัดแยกขยะให้โลกน่าอยู่ <br> <a href="#" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#new2">อ่านลายละเอียด</a></td>
+                            </tr>
+                       </table>
+                    </div>
+                </div>
+
+                 <div class="card shadow mt-1">
+                    <div class="card body">
+                       <table width="100%">
+                            <tr>
+                                <td width="30%"><img src="img/c03.jpg" width="80%"></td>
+                                <td width="70%">รักษ์โลก รักสิ่งแวดล้อม <br> <a href="#" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#new3">อ่านลายละเอียด</a></td>
+                            </tr>
+                       </table>
+                    </div>
+                </div>
+
+                 <div class="card shadow mt-1">
+                    <div class="card body">
+                       <table width="100%">
+                            <tr>
+                                <td width="30%"><img src="img/c05.jpg" width="80%"></td>
+                                <td width="70%">โลกสวยด้วยมือเรา <br> <a href="#" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#new4">อ่านลายละเอียด</a></td>
+                            </tr>
+                       </table>
+                    </div>
+                </div>
+
+                <div class="card shadow mt-1">
+                    <div class="card body">
+                       <table width="100%">
+                            <tr>
+                                <td width="30%"><img src="img/c06.jpg" width="80%"></td>
+                                <td width="70%">คัดแยกขยะต่อโลก <br> <a href="#" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#new5">อ่านลายละเอียด</a></td>
+                            </tr>
+                       </table>
+                    </div>
+                </div>
+
+                <div class="card shadow mt-1">
+                    <div class="card body">
+                       <table width="100%">
+                            <tr>
+                                <td width="30%"><img src="img/c07.jpg" width="80%"></td>
+                                <td width="70%">แยกขยะก่อนทิ้ง ดีต่อใจ ดีต่อโลก <br> <a href="#" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#new6">อ่านลายละเอียด</a></td>
+                            </tr>
+                       </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-xl-5">
+                <div class="mt-1">
+                    <font size="+2" color="blue">| สมาชิก</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <td>#</td>
+                                    <td>รูป</td>
+                                    <td>ชื่อ-สกุล</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#d1"><img src="img/d01.jpg" class="rounded-circle" width="50"></a></td>
+                                    <td>ก้องกิดากร จันธิมา</td>
+                                </tr>
+                                 <tr>
+                                    <td>2</td>
+                                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#d2"><img src="img/d10.png" class="rounded-circle" width="50"></a></td>
+                                    <td>เก็จแก้ว สินศิริ</td>
+                                </tr>
+                                 <tr>
+                                    <td>3</td>
+                                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#d3"><img src="img/d03.jpg" class="rounded-circle" width="50"></a></td>
+                                    <td>ปฏิภาณ รุ่งเสถียร</td>
+                                </tr>
+                                 <tr>
+                                    <td>4</td>
+                                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#d4"><img src="img/d07.jpg" class="rounded-circle" width="50"></a></td>
+                                    <td>ปาลิตา วงษ์ขันธ์</td>
+                                </tr>
+                                 <tr>
+                                    <td>5</td>
+                                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#d5"><img src="img/d05.png" class="rounded-circle" width="50"></a></td>
+                                    <td>ภาธร เทียมสิงห์</td>
+                                </tr>
+                                 <tr>
+                                    <td>6</td>
+                                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#d6"><img src="img/d06.jpg" class="rounded-circle" width="50"></a></td>
+                                    <td>วชิรวิทย์ นาใจนึก</td>
+                                </tr>
+                                 <tr>
+                                    <td>7</td>
+                                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#d7"><img src="img/d07.jpg" class="rounded-circle" width="50"></a></td>
+                                    <td>วรนุช คล้ายจันทร์พงศ์</td>
+                                </tr>
+                                 <tr>
+                                    <td>8</td>
+                                    <td><a href="#" data-bs-toggle="modal" data-bs-target="#d8"><img src="img/d10.png" class="rounded-circle" width="50"></a></td>
+                                    <td>วลิศรา คำพิมูล</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------ข้อมูลสมาชิก--------->
+    <div class="modal fade" id="d1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d01.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล : นายก้องกิดากร จันธิมา</label>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            <label>ที่อยู่ : 340/18 ถ.ปลัดมณฑล ต.เมืองคง อ.ราษีไศล จ.ศรีสะเกษ</label>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            <label>เบอร์โทร : 083-7941049</label>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            <label>อายุ : 19 ปี</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d10.png" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล : นางสาวเก็จแก้ว สินศิริ</label>
+                        </td>
+                    </tr>
+                     <tr>
+                        <td>
+                            <label>ที่อยู่ : 110/10 ถ.หนองเกลี้ยง อ.เมือง จ.ศรีสะเกษ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>เบอร์โทร : 088-7541240</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 18 ปี</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d03.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล : นายปฏิภาณ รุ่งเสถียร</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : 210/18 ถ.หนองหมาก อ.เมือง จ.ศรีสะเกษ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>เบอร์โทร : 089-1234450 </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 19 ปี</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d07.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล : นางสาวปาลิตา วงษ์ขันธ์</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : 150/3 ต.หนองไผ่ อ.เมือง จ.ศรีสะเกษ</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>เบอร์โทร : 066-7652540</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 18 ปี</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d5">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d05.png" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล : นายภาธร เทียมสิงห์</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : 300/19 จ.ศรีสะเกษ อ.เมือง </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>เบอร์โทร : 090-7641244</label>
+                        </td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 19 ปี</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d6">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d06.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล : นายวชิรวิทย์ นาใจนึก</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : 218/8 จ.ศรีสะเกษ อ.เมือง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>เบอร์โทร : 080-9701455</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 19 ปี</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d7">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d07.jpg" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล : นางสาว วรนุช คล้ายจันทร์พงศ์</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : 230/20 ต.หนองอึ่ง จ.ศรีสะเกษ อ.เมือง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>เบอร์โทร : 086-5498867</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 18 ปี</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="d8">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table">
+                    <tr>
+                        <td align="center"><img src="img/d10.png" width="150" class="rounded-circle"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ชื่อ-สกุล : นางสาว วลิศรา คำพิมูล</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>ที่อยู่ : 250/3 จ.ศรีสะเกษ อ.เมือง</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>เบอร์โทร : 099-7802089</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>อายุ : 18 ปี</label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-----New1---->
+    <div class="modal fade" id="new1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c01.jpg" width="80%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| คัดแยกขยะรีไซเคิล</h3></td>
+                    </tr>
+                    <tr>
+                        <td>การคัดแยกขยะรีไซเคิลอย่างย่อมีขั้นตอนดังนี้: <br>
+                            <ul>
+                                <li>แยกประเภท: แบ่งขยะเป็น กระดาษ, พลาสติก, แก้ว, โลหะ</li>
+                                <li>ล้างทำความสะอาด: ล้างขวด/ภาชนะที่เปื้อนเศษอาหารหรือเครื่องดื่ม แล้วผึ่งให้แห้ง</li>
+                                <li>บีบอัด/จัดเก็บ: บีบกระป๋องหรือขวดให้แบนเพื่อประหยัดพื้นที่ และมัดกระดาษรวมกัน</li>
+                                <li>ทิ้งให้ถูกที่: นำไปทิ้งในถังขยะรีไซเคิล (สีเหลือง) หรือนำไปขายร้านรับซื้อของเก่า</li>
+                            </ul>
+                            การคัดแยกช่วยลดขยะ, ประหยัดทรัพยากร และรักษาสิ่งแวดล้อม
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-----New2------>
+    <div class="modal fade" id="new2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c02.jpg" width="80%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| คัดแยกขยะให้โลกน่าอยู่</h3></td>
+                    </tr>
+                    <tr>
+                        <td>การคัดแยกขยะให้โลกน่าอยู่ เริ่มต้นง่ายๆ ด้วยการแยกขยะ 4 ประเภทหลักตามสีถังขยะ: สีเขียว (ขยะอินทรีย์ เช่น เศษอาหาร), สีเหลือง (ขยะรีไซเคิล เช่น ขวด กระดาษ), สีน้ำเงิน/ฟ้า (ขยะทั่วไป เช่น ซองขนม), และ สีแดง/ส้ม (ขยะอันตราย เช่น แบตเตอรี่ หลอดไฟ) เพื่อลดขยะ ลดมลพิษ เพิ่มการใช้ทรัพยากร และสร้างสิ่งแวดล้อมที่ยั่งยืน <br>
+                            4 ประเภทหลักในการแยกขยะ (ตามสีถัง)
+                        <ul>
+                            <li>ถังขยะสีเขียว: ขยะอินทรีย์ (ย่อยสลายได้) ตัวอย่าง: เศษอาหาร, เปลือกผลไม้, เศษผัก, กากกาแฟ, ใบไม้.
+                            ประโยชน์: นำไปทำปุ๋ยหมักหรืออาหารสัตว์ได้</li>
+                            <li>ถังขยะสีเหลือง: ขยะรีไซเคิล (นำกลับมาใช้ใหม่ได้) ตัวอย่าง: ขวดพลาสติก, กระดาษ, กล่องกระดาษ, กระป๋อง, ขวดแก้ว.
+                            ประโยชน์: ลดการใช้ทรัพยากรธรรมชาติ</li>
+                            <li>ถังขยะสีน้ำเงิน/ฟ้า: ขยะทั่วไป (มูลฝอยทั่วไป)
+                            ตัวอย่าง: ซองขนม, ถุงพลาสติก, โฟม, พลาสติกที่เปื้อนอาหาร.
+                            ประโยชน์: ลดขยะที่ต้องนำไปฝังกลบ</li>
+                            <li>ถังขยะสีแดง/ส้ม: ขยะอันตราย (มีสารเคมี)
+                            ตัวอย่าง: ถ่านไฟฉาย, หลอดไฟ, แบตเตอรี่, อุปกรณ์อิเล็กทรอนิกส์.
+                            ประโยชน์: ป้องกันสารเคมีปนเปื้อนสู่สิ่งแวดล้อม</li>
+                        </ul>
+                        <ul>เคล็ดลับเพิ่มเติมเพื่อโลกน่าอยู่
+                             <li>Reduce (ลด): ลดการสร้างขยะที่ไม่จำเป็น เช่น ใช้ถุงผ้าแทนถุงพลาสติก.</li>
+                            <li>Reuse (ใช้ซ้ำ): นำของมาใช้ซ้ำ เช่น ขวดน้ำมาทำกระถางต้นไม้.</li>
+                            <li>Recycle (นำกลับมาใช้ใหม่): แยกขยะรีไซเคิลให้ถูกประเภท.</li>
+                            <li>Repair (ซ่อม): ซ่อมของที่เสียแทนการทิ้ง.</li>
+                            <li>Simplify: พับและอัดขยะให้แน่น เพื่อลดปริมาณและกลิ่น</li>
+                        </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!----New3----->
+    <div class="modal fade" id="new3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c03.jpg" width="80%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| รักษ์โลก รักสิ่งแวดล้อม</h3></td>
+                    </tr>
+                    <tr>
+                        <td>รักโลกและสิ่งแวดล้อม คือการปรับเปลี่ยนพฤติกรรมเล็กๆ ในชีวิตประจำวันเพื่อลดผลกระทบต่อสิ่งแวดล้อม ได้แก่: <br>
+                        <ul>
+                            <li>ลดการใช้พลาสติกและลดขยะ: พกถุงผ้า ขวดน้ำ และแยกขยะให้ถูกประเภท</li>
+                            <li>ประหยัดพลังงานและน้ำ: ปิดไฟและถอดปลั๊กเมื่อไม่ใช้ ใช้น้ำอย่างรู้คุณค่า และไม่เปิดน้ำทิ้งไว้</li>
+                            <li>ปลูกต้นไม้เพิ่มพื้นที่สีเขียว: ต้นไม้ช่วยดูดซับก๊าซคาร์บอนไดออกไซด์และทำให้โลกน่าอยู่ขึ้น</li>
+                            <li>ใช้ซ้ำและรีไซเคิล: นำสิ่งของกลับมาใช้ใหม่ หรือส่งขยะไปรีไซเคิล</li>
+                            <li>สนับสนุนสินค้า Eco-Friendly: เลือกสินค้าที่เป็นมิตรต่อสิ่งแวดล้อม</li>
+                        </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-----New4---->
+    <div class="modal fade" id="new4">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c05.jpg" width="80%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| โลกสวยด้วยมือเรา</h3></td>
+                    </tr>
+                    <tr>
+                        <td>"โลกสวยด้วยมือเรา" เป็นวลีหรือสโลแกนยอดนิยมของไทยที่มักใช้ในการรณรงค์เรื่องการอนุรักษ์สิ่งแวดล้อม การรักษาความสะอาด และการปลูกฝังจิตสำนึกที่ดี <br>
+                        <ul>ตัวอย่างกิจกรรมที่สอดคล้องกับสโลแกนนี้:
+                            <li>การทิ้งขยะให้เป็นที่: การรักษาความสะอาดในพื้นที่สาธารณะ</li>
+                            <li>การปลูกต้นไม้: การเพิ่มพื้นที่สีเขียว</li>
+                            <li>การลดใช้พลาสติก: การช่วยลดปัญหาขยะและมลพิษ</li>
+                            <li>การประหยัดพลังงาน: การปิดไฟเมื่อไม่ใช้งาน</li>
+                        </ul>
+                        วลีนี้มักถูกใช้ในกิจกรรมโรงเรียน งานอาสา และแคมเปญด้านสิ่งแวดล้อมต่างๆ เพื่อกระตุ้นให้คนไทยรู้สึกเป็นเจ้าของและร่วมกันดูแลโลกใบนี้ครับ
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!-----New5---->
+    <div class="modal fade" id="new5">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                 <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                 <hr>
+                 <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c06.jpg" width="80%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| คัดแยกขยะต่อโลก</h3></td>
+                    </tr>
+                    <tr>
+                        <td>การคัดแยกขยะเพื่อช่วยโลกคือการแยกขยะเป็นประเภทหลักๆ (ขยะอินทรีย์, รีไซเคิล, ทั่วไป, อันตราย) ก่อนทิ้ง เพื่อนำกลับมาใช้ใหม่ ลดปริมาณขยะที่ต้องกำจัด ลดมลพิษ (ดิน, น้ำ, อากาศ) และลดภาวะโลกร้อน โดยเริ่มจากตัวเอง <br>
+                        <ul>วิธีการคัดแยกขยะง่ายๆ
+                            <li>ขยะอินทรีย์ (ขยะเปียก): เศษอาหาร, เปลือกผลไม้, ใบไม้ (ทิ้งถังสีเขียว)</li>
+                            <li>ขยะรีไซเคิล: กระดาษ, แก้ว, พลาสติก, โลหะ (ทิ้งถังสีเหลือง/น้ำเงิน)</li>
+                            <li>ขยะทั่วไป: ถุงพลาสติก, ซองขนม, โฟม (ทิ้งถังสีน้ำเงิน)</li>
+                            <li>ขยะอันตราย: แบตเตอรี่, หลอดไฟ, ถ่านไฟฉาย, ยาหมดอายุ, กระป๋องสเปรย์ (ทิ้งถังสีแดง/ส้ม)</li>
+                            <li>ลดขยะที่ต้นทาง: ใช้ถุงผ้า, หลอดสแตนเลส, และเลือกซื้อสินค้าที่บรรจุภัณฑ์น้อย</li>
+                            <li>ทำความสะอาด: ล้างขวดพลาสติกและกระป๋องก่อนทิ้ง</li>
+                            <li>บีบอัดและมัดปากถุง: ลดขนาดขยะและมัดถุงให้แน่นเพื่อลดกลิ่นและพื้นที่.</li>
+                        </ul>
+                        การเริ่มต้นแยกขยะจากตัวเราเองเพียงเล็กน้อย จะช่วยสร้างการเปลี่ยนแปลงที่ยิ่งใหญ่ต่อโลกและสิ่งแวดล้อมได้
+                        </td>
+                    </tr>
+                 </table>
+            </div>
+        </div>
+    </div>
+    <!----New6----->
+    <div class="modal fade" id="new6">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button type="button" data-bs-dismiss="modal" class="btn-close ms-auto mt-1"></button>
+                <hr>
+                <table class="table" width="90%">
+                    <tr>
+                        <td align="center"><img src="img/c07.jpg" width="80%"></td>
+                    </tr>
+                    <tr>
+                        <td><h3>| แยกขยะก่อนทิ้ง ดีต่อใจ ดีต่อโลก</h3></td>
+                    </tr>
+                    <tr>
+                        <td>การแยกขยะก่อนทิ้งมีประโยชน์หลักๆ คือ: <br>
+                        <ul>
+                            <li>ดีต่อโลก: ช่วยลดปริมาณขยะ ประหยัดทรัพยากรธรรมชาติ ลดมลพิษ และลดก๊าซเรือนกระจก</li>
+                            <li>ดีต่อใจ: สร้างวินัยและความรับผิดชอบ ทำให้สภาพแวดล้อมน่าอยู่ขึ้น และสร้างความรู้สึกภูมิใจที่ได้เป็นส่วนหนึ่งในการดูแลโลก</li>
+                        </ul>
+                        เป็นการกระทำเล็กๆ ที่ส่งผลดีอย่างยิ่งต่อทั้งตนเองและส่วนรวมครับ
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!------Product---------->
+    <div class="container" id="product">
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| Product...</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/b1.bmp" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>กระเป๋า ff</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 19</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| Product...</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/b2.bmp" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ถุงกระเป๋า brandname</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 199</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| Product...</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/b3.bmp" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ถุงผ้า</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 40</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| Product...</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/b4.bmp" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ถุงผ้าสีเทา</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 45</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| Product...</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/food 0.1.bmp" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>ข้าวไข่ดาวไส้กรอก Breakfast</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 25</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+                <div class="mt-1">
+                    <font size="+2">| Product...</font>
+                </div>
+                <div class="card shadow">
+                    <div class="card-body">
+                        <table class="table">
+                            <tr>
+                                <td align="center"><img src="img/pngtree-thai-basil-fried-rice-illustration-png-image_3471776.jpg" width="200px" height="200px"></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><h4>กระเพรา อาจารย์คง</h4></td>
+                            </tr>
+                            <tr>
+                                <td align="center"><font size="+4" color="red">฿ 30</font></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="" id="kongkidakorn">
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background-color: #0a4275;">
+    <!-- Grid container -->
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      2026 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">kongkidakorn2568@gmail.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+</body>
+</html>
